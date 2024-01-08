@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Listado de Farmacias</title>
+    <style>
+        body{
+            background-color:#2D3C65;
+            color:#FFFFFF;
+        }
+        img{
+            heigth:30%;
+            width:30%;
+        }
+        p {
+          background-color: #04AA6D; /* Green */
+          border: none;
+          color: white;
+          padding: 15px 32px;
+          text-align: center;
+          text-decoration: none;
+          display: inline-block;
+          font-size: 16px;
+          transition-duration: 0.4s;
+          position:relative;
+        }
+        p:hover {
+          box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+        }
+        a{
+            text-decoration:none;
+            color:#FFFFFF;
+        }
+    </style>
+</head>
+<body>
+<table>
+    <thead>
+    <th>Nombre</th>
+    <th>Web</th>
+    <th>Número</th>
+    <th>UTMX</th>
+    <th>UTMY</th>
+    <th>Horario Lunes</th>
+    <th>Horario Martes</th>
+    <th>Horario Miercoles</th>
+    <th>Horario Jueves</th>
+    <th>Horario Viernes</th>
+    <th>Horario Sábado</th>
+    <th>Horario Domingo</th>
+    </thead>
+    <tbody>
+    <tr th:each="farmacias:${listadoFarmacias}">
+        <td th:text="${farmacias.NOMBRE}"></td>
+        <td th:text="${farmacias.WEB}"></td>
+        <td th:text="${farmacias.TELEFONO}"></td>
+        <td th:text="${farmacias.UTM_X}"></td>
+        <td th:text="${farmacias.UTM_Y}"></td>
+        <td th:text="${farmacias.LUNES}"></td>
+        <td th:text="${farmacias.MARTES}"></td>
+        <td th:text="${farmacias.MIERCOLES}"></td>
+        <td th:text="${farmacias.JUEVES}"></td>
+        <td th:text="${farmacias.VIERNES}"></td>
+        <td th:text="${farmacias.SABADO}"></td>
+        <td th:text="${farmacias.DOMINGO}"></td>
+    </tr>
+    </tbody>
+</table>
+<form method="post" th:action="@{/find}">
+    <input type="text" id="search" name="search" placeholder="Busca una farmacia"><input type="submit" value="Buscar farmacias cercanas">
+</form>
+
+<div th:if="${not #lists.isEmpty(farmaciasCercanas)}">
+    <h2>Farmacias cercanas:</h2>
+    <ul>
+        <li th:each="farmacia : ${farmaciasCercanas}">
+            <h3 th:text="${farmacia.getNOMBRE()}"></h3>
+        </li>
+    </ul>
+</div>
+
+
+<p><a th:href="@{/}">Página de inicio</a></p>
+</body>
+</html>
