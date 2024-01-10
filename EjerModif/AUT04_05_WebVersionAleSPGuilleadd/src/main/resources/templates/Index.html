@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <style>
+        body{
+            background-color:#2D3C65;
+            color:#FFFFFF;
+        }
+        img{
+            heigth:30%;
+            width:30%;
+        }
+        p {
+          background-color: #04AA6D; /* Green */
+          border: none;
+          color: white;
+          padding: 15px 32px;
+          text-align: center;
+          text-decoration: none;
+          display: inline-block;
+          font-size: 16px;
+          transition-duration: 0.4s;
+          position:relative;
+        }
+        p:hover {
+          box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+        }
+        a{
+            text-decoration:none;
+            color:#FFFFFF;
+        }
+    </style>
+    <title>Farmacias AlejandroSP</title>
+</head>
+<body>
+<h1>Bienvenido, encuentra tu farmacia</h1>
+<img th:src="@{/images/pharmacy.jpg}" alt="Descripción de la imagen">
+<p><a th:href="@{/abrir}">Listado de farmacias</a></p>
+</body>
+</html>
