@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Añadir Farmacia</title>
+    <style>
+        body{
+            background-color:#2D3C65;
+            color:#FFFFFF;
+        }
+        img{
+            heigth:30%;
+            width:30%;
+        }
+        p {
+          background-color: #04AA6D; /* Green */
+          border: none;
+          color: white;
+          padding: 15px 32px;
+          text-align: center;
+          text-decoration: none;
+          display: inline-block;
+          font-size: 16px;
+          transition-duration: 0.4s;
+          position:relative;
+        }
+        p:hover {
+          box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+        }
+        a{
+            text-decoration:none;
+            color:#FFFFFF;
+        }
+        ul{
+            list-style:none;
+            width: 50%;
+            padding-left: 0;
+        }
+        li{
+            margin-top: 5%;
+        }
+    </style>
+</head>
+<body>
+<form method="post" th:action="@{/add}" th:object="${Farmacia}">
+    <fieldset>
+        <ul>
+            <li>Página web: <input type="text" placeholder="Nombre de la página web" th:field="*{WEB}" required="required"></li>
+            <li>Nombre: <input type="text" placeholder="Nombre de la Farmacia" th:field="*{NOMBRE}" required="required">
+            <li>Telefono: <input type="text" placeholder="Ejem: 1234567890" th:field="*{TELEFONO}" required="required"></li>
+            <li>Horario Lunes: <input type="text" placeholder="Ejem: 09:00,14:00,17:00,20:30" th:field="*{LUNES}" required="required"></li>
+            <li>Horario Martes: <input type="text" placeholder="Ejem: 09:00,14:00,17:00,20:30" th:field="*{MARTES}" required="required"></li>
+            <li>Horario Miercoles: <input type="text" placeholder="Ejem: 09:00,14:00,17:00,20:30" th:field="*{MIERCOLES}" required="required"></li>
+            <li>Horario Jueves: <input type="text" placeholder="Ejem: 09:00,14:00,17:00,20:30" th:field="*{JUEVES}" required="required"></li>
+            <li>Horario Viernes: <input type="text" placeholder="Ejem: 09:00,14:00,17:00,20:30" th:field="*{VIERNES}" required="required"></li>
+            <li>Horario Sabado: <input type="text" placeholder="Ejem: 09:00,14:00,17:00,20:30" th:field="*{SABADO}" required="required"></li>
+            <li>Horario Domingo: <input type="text" placeholder="Ejem: 09:00,14:00,17:00,20:30" th:field="*{DOMINGO}" required="required"></li>
+            <li>Coordenadas en UTM_X: <input type="number" placeholder="Página web" th:field="*{UTM_X}" required="required"></li>
+            <li>Coordenadas en UTM_Y: <input type="number" placeholder="Página web" th:field="*{UTM_Y}" required="required"></li>
+        </ul>
+        <input type="submit" value="Añadir Farmacia">
+    </fieldset>
+</form>
+</body>
+</html>
