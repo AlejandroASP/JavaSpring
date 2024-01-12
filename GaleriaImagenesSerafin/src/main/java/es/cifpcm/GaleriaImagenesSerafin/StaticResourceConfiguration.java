@@ -5,11 +5,10 @@ import org.springframework.web.servlet.config.annotation.ResourceHandlerRegistry
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 
 @Configuration
-public class MvcConfig implements WebMvcConfigurer {
-
+public class StaticResourceConfiguration implements WebMvcConfigurer {
     @Override
     public void addResourceHandlers(ResourceHandlerRegistry registry) {
-        registry.addResourceHandler("/uploadsSerafin/**")
-                .addResourceLocations("file:uploadsSerafin/");
+        registry.addResourceHandler("/uploadsSerafin/**").addResourceLocations("file:target/uploadsSerafin/");
     }
 }
+

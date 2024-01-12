@@ -18,7 +18,7 @@
     <div th:if="${message}" th:text="${message}"></div>
 </form>
 <div th:each="imageLink : ${imageLinks}">
-    <img th:src="${imageLink}" />
+    <img th:src="@{${imageLink}}"/>
 </div>
 </body>
 </html>

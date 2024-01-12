@@ -9,7 +9,7 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>es.cifpcm</groupId>
-	<artifactId>GaleriaImagenesSerafin</artifactId>
+	<artifactId>AUT05_04_GaleriaImagenesAleSPGuilleH</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>war</packaging>
 	<name>GaleriaImagenesSerafin</name>
