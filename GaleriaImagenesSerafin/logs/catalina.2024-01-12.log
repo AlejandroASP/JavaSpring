@@ -1,0 +1,175 @@
+12-Jan-2024 13:38:30.683 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Nombre de la versión del servidor: Apache Tomcat/10.1.17
+12-Jan-2024 13:38:30.687 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:                      Dec 7 2023 23:31:38 UTC
+12-Jan-2024 13:38:30.687 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Número de versión de servidor:     10.1.17.0
+12-Jan-2024 13:38:30.687 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:                           Windows 11
+12-Jan-2024 13:38:30.687 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Versión de Systema Operativo:      10.0
+12-Jan-2024 13:38:30.687 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Arquitectura:                      amd64
+12-Jan-2024 13:38:30.687 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:                         C:\Program Files\Java\jdk-20
+12-Jan-2024 13:38:30.687 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:                       20.0.1+9-29
+12-Jan-2024 13:38:30.688 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Vededor JVM:                       Oracle Corporation
+12-Jan-2024 13:38:30.688 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:                     C:\Users\2dawa\Documents\GitHub\JavaSpring\GaleriaImagenesSerafin
+12-Jan-2024 13:38:30.688 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:                     C:\Users\2dawa\Downloads\apache-tomcat-10.1.17
+12-Jan-2024 13:38:30.701 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.lang=ALL-UNNAMED
+12-Jan-2024 13:38:30.702 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.io=ALL-UNNAMED
+12-Jan-2024 13:38:30.702 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.util=ALL-UNNAMED
+12-Jan-2024 13:38:30.703 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+12-Jan-2024 13:38:30.703 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+12-Jan-2024 13:38:30.703 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dcatalina.home=C:\Users\2dawa\Downloads\apache-tomcat-10.1.17
+12-Jan-2024 13:38:30.703 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dcatalina.base=C:\Users\2dawa\Documents\GitHub\JavaSpring\GaleriaImagenesSerafin
+12-Jan-2024 13:38:30.703 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.io.tmpdir=C:\Users\2dawa\Documents\GitHub\JavaSpring\GaleriaImagenesSerafin\temp
+12-Jan-2024 13:38:30.703 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.util.logging.config.file=C:\Users\2dawa\Documents\GitHub\JavaSpring\GaleriaImagenesSerafin\conf\logging.properties
+12-Jan-2024 13:38:30.703 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+12-Jan-2024 13:38:30.703 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2023.3\lib\idea_rt.jar=61875:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2023.3\bin
+12-Jan-2024 13:38:30.703 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dfile.encoding=UTF-8
+12-Jan-2024 13:38:30.703 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dsun.stdout.encoding=UTF-8
+12-Jan-2024 13:38:30.703 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dsun.stderr.encoding=UTF-8
+12-Jan-2024 13:38:30.706 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Cargada la biblioteca nativa APR de Apache Tomcat [2.0.6] con la versión APR [1.7.4].
+12-Jan-2024 13:38:30.715 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL inicializado correctamente [OpenSSL 3.0.11 19 Sep 2023]
+12-Jan-2024 13:38:31.299 INFO [main] org.apache.coyote.AbstractProtocol.init Inicializando el manejador de protocolo ["http-nio-8080"]
+
+12-Jan-2024 13:38:31.313 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [914] milliseconds
+12-Jan-2024 13:38:31.358 INFO [main] org.apache.catalina.core.StandardService.startInternal Arrancando servicio [Catalina]
+12-Jan-2024 13:38:31.358 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.17]
+12-Jan-2024 13:38:31.371 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [C:\Users\2dawa\Documents\GitHub\JavaSpring\GaleriaImagenesSerafin\conf\Catalina\localhost\galeriaAleSPGuillermoH.xml]
+12-Jan-2024 13:38:31.459 SEVERE [main] org.apache.catalina.startup.HostConfig.deployDescriptor Error durante el despliegue del descriptor de configuración [C:\Users\2dawa\Documents\GitHub\JavaSpring\GaleriaImagenesSerafin\conf\Catalina\localhost\galeriaAleSPGuillermoH.xml]
+	java.lang.IllegalStateException: Error starting child
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:686)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:658)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:712)
+		at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:643)
+		at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1939)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:577)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:123)
+		at org.apache.catalina.startup.HostConfig.deployDescriptors(HostConfig.java:536)
+		at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:426)
+		at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1661)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:309)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:114)
+		at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:402)
+		at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:345)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:893)
+		at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:845)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1332)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1322)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:866)
+		at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:240)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.StandardService.startInternal(StandardService.java:433)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:917)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:795)
+		at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:347)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:478)
+	Caused by: org.apache.catalina.LifecycleException: Failed to start component [org.apache.catalina.webresources.StandardRoot@62833051]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:419)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:186)
+		at org.apache.catalina.core.StandardContext.resourcesStart(StandardContext.java:4535)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4668)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:683)
+		... 35 more
+	Caused by: java.lang.IllegalArgumentException: The main resource set specified [C:\Users\2dawa\Documents\GitHub\JavaSpring\GaleriaImagenesSerafin\src\main\java\es\cifpcm\GaleriaImagenesSerafin] is not a directory or war file, or is not readable (it does not exist or permissions to access it are missing)
+		at org.apache.catalina.webresources.StandardRoot.createMainResourceSet(StandardRoot.java:749)
+		at org.apache.catalina.webresources.StandardRoot.startInternal(StandardRoot.java:707)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		... 39 more
+12-Jan-2024 13:38:31.468 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\2dawa\Documents\GitHub\JavaSpring\GaleriaImagenesSerafin\conf\Catalina\localhost\galeriaAleSPGuillermoH.xml] has finished in [92] ms
+12-Jan-2024 13:38:31.471 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+12-Jan-2024 13:38:31.663 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [346] milliseconds
+12-Jan-2024 13:39:14.885 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+12-Jan-2024 13:39:14.898 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Parando servicio [Catalina]
+12-Jan-2024 13:39:14.900 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+12-Jan-2024 13:39:14.904 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+12-Jan-2024 13:39:14.905 SEVERE [Thread-1] org.apache.catalina.core.StandardContext.resourcesStop Error stopping static Resources
+	org.apache.catalina.LifecycleException: An invalid Lifecycle transition was attempted ([before_stop]) for component [org.apache.catalina.webresources.DirResourceSet@21d11d88] in state [INITIALIZED]
+		at org.apache.catalina.util.LifecycleBase.invalidTransition(LifecycleBase.java:409)
+		at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:229)
+		at org.apache.catalina.webresources.StandardRoot.stopInternal(StandardRoot.java:760)
+		at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:242)
+		at org.apache.catalina.core.StandardContext.resourcesStop(StandardContext.java:4561)
+		at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5137)
+		at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:242)
+		at org.apache.catalina.util.LifecycleBase.destroy(LifecycleBase.java:278)
+		at org.apache.catalina.core.ContainerBase.removeChild(ContainerBase.java:778)
+		at org.apache.catalina.core.ContainerBase.destroyInternal(ContainerBase.java:983)
+		at org.apache.catalina.util.LifecycleBase.destroy(LifecycleBase.java:306)
+		at org.apache.catalina.core.ContainerBase.removeChild(ContainerBase.java:778)
+		at org.apache.catalina.core.ContainerBase.destroyInternal(ContainerBase.java:983)
+		at org.apache.catalina.util.LifecycleBase.destroy(LifecycleBase.java:306)
+		at org.apache.catalina.core.StandardService.destroyInternal(StandardService.java:577)
+		at org.apache.catalina.util.LifecycleBase.destroy(LifecycleBase.java:306)
+		at org.apache.catalina.core.StandardServer.destroyInternal(StandardServer.java:1018)
+		at org.apache.catalina.util.LifecycleBase.destroy(LifecycleBase.java:306)
+		at org.apache.catalina.startup.Catalina.stop(Catalina.java:873)
+		at org.apache.catalina.startup.Catalina$CatalinaShutdownHook.run(Catalina.java:1011)
+12-Jan-2024 13:39:14.905 SEVERE [Thread-1] org.apache.catalina.util.LifecycleBase.destroy Called stop() on failed component [org.apache.catalina.webresources.StandardRoot@62833051] to trigger clean-up but it failed too
+	org.apache.catalina.LifecycleException: An invalid Lifecycle transition was attempted ([before_stop]) for component [org.apache.catalina.webresources.DirResourceSet@21d11d88] in state [INITIALIZED]
+		at org.apache.catalina.util.LifecycleBase.invalidTransition(LifecycleBase.java:409)
+		at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:229)
+		at org.apache.catalina.webresources.StandardRoot.stopInternal(StandardRoot.java:760)
+		at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:242)
+		at org.apache.catalina.util.LifecycleBase.destroy(LifecycleBase.java:278)
+		at org.apache.catalina.core.StandardContext.destroyInternal(StandardContext.java:5205)
+		at org.apache.catalina.util.LifecycleBase.destroy(LifecycleBase.java:306)
+		at org.apache.catalina.core.ContainerBase.removeChild(ContainerBase.java:778)
+		at org.apache.catalina.core.ContainerBase.destroyInternal(ContainerBase.java:983)
+		at org.apache.catalina.util.LifecycleBase.destroy(LifecycleBase.java:306)
+		at org.apache.catalina.core.ContainerBase.removeChild(ContainerBase.java:778)
+		at org.apache.catalina.core.ContainerBase.destroyInternal(ContainerBase.java:983)
+		at org.apache.catalina.util.LifecycleBase.destroy(LifecycleBase.java:306)
+		at org.apache.catalina.core.StandardService.destroyInternal(StandardService.java:577)
+		at org.apache.catalina.util.LifecycleBase.destroy(LifecycleBase.java:306)
+		at org.apache.catalina.core.StandardServer.destroyInternal(StandardServer.java:1018)
+		at org.apache.catalina.util.LifecycleBase.destroy(LifecycleBase.java:306)
+		at org.apache.catalina.startup.Catalina.stop(Catalina.java:873)
+		at org.apache.catalina.startup.Catalina$CatalinaShutdownHook.run(Catalina.java:1011)
+12-Jan-2024 13:39:17.853 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Nombre de la versión del servidor: Apache Tomcat/10.1.17
+12-Jan-2024 13:39:17.857 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:                      Dec 7 2023 23:31:38 UTC
+12-Jan-2024 13:39:17.857 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Número de versión de servidor:     10.1.17.0
+12-Jan-2024 13:39:17.857 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:                           Windows 11
+12-Jan-2024 13:39:17.857 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Versión de Systema Operativo:      10.0
+12-Jan-2024 13:39:17.857 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Arquitectura:                      amd64
+12-Jan-2024 13:39:17.857 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:                         C:\Program Files\Java\jdk-20
+12-Jan-2024 13:39:17.857 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:                       20.0.1+9-29
+12-Jan-2024 13:39:17.857 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Vededor JVM:                       Oracle Corporation
+12-Jan-2024 13:39:17.858 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:                     C:\Users\2dawa\Documents\GitHub\JavaSpring\GaleriaImagenesSerafin
+12-Jan-2024 13:39:17.858 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:                     C:\Users\2dawa\Downloads\apache-tomcat-10.1.17
+12-Jan-2024 13:39:17.866 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.lang=ALL-UNNAMED
+12-Jan-2024 13:39:17.866 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.io=ALL-UNNAMED
+12-Jan-2024 13:39:17.867 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.util=ALL-UNNAMED
+12-Jan-2024 13:39:17.867 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+12-Jan-2024 13:39:17.867 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+12-Jan-2024 13:39:17.867 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dcatalina.home=C:\Users\2dawa\Downloads\apache-tomcat-10.1.17
+12-Jan-2024 13:39:17.867 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dcatalina.base=C:\Users\2dawa\Documents\GitHub\JavaSpring\GaleriaImagenesSerafin
+12-Jan-2024 13:39:17.867 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.io.tmpdir=C:\Users\2dawa\Documents\GitHub\JavaSpring\GaleriaImagenesSerafin\temp
+12-Jan-2024 13:39:17.867 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.util.logging.config.file=C:\Users\2dawa\Documents\GitHub\JavaSpring\GaleriaImagenesSerafin\conf\logging.properties
+12-Jan-2024 13:39:17.867 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+12-Jan-2024 13:39:17.867 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2023.3\lib\idea_rt.jar=61899:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2023.3\bin
+12-Jan-2024 13:39:17.868 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dfile.encoding=UTF-8
+12-Jan-2024 13:39:17.868 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dsun.stdout.encoding=UTF-8
+12-Jan-2024 13:39:17.869 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dsun.stderr.encoding=UTF-8
+12-Jan-2024 13:39:17.871 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Cargada la biblioteca nativa APR de Apache Tomcat [2.0.6] con la versión APR [1.7.4].
+12-Jan-2024 13:39:17.877 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL inicializado correctamente [OpenSSL 3.0.11 19 Sep 2023]
+12-Jan-2024 13:39:18.272 INFO [main] org.apache.coyote.AbstractProtocol.init Inicializando el manejador de protocolo ["http-nio-8080"]
+
+12-Jan-2024 13:39:18.290 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [667] milliseconds
+12-Jan-2024 13:39:18.370 INFO [main] org.apache.catalina.core.StandardService.startInternal Arrancando servicio [Catalina]
+12-Jan-2024 13:39:18.370 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.17]
+12-Jan-2024 13:39:18.392 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [C:\Users\2dawa\Documents\GitHub\JavaSpring\GaleriaImagenesSerafin\conf\Catalina\localhost\galeriaAleSPGuillermoH.xml]
+12-Jan-2024 13:39:21.403 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+12-Jan-2024 13:39:26.045 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\2dawa\Documents\GitHub\JavaSpring\GaleriaImagenesSerafin\conf\Catalina\localhost\galeriaAleSPGuillermoH.xml] has finished in [7.652] ms
+12-Jan-2024 13:39:26.048 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+12-Jan-2024 13:39:26.100 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [7808] milliseconds
+12-Jan-2024 13:40:08.648 INFO [Thread-3] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+12-Jan-2024 13:40:08.658 INFO [Thread-3] org.apache.catalina.core.StandardService.stopInternal Parando servicio [Catalina]
+12-Jan-2024 13:40:08.689 INFO [Thread-3] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+12-Jan-2024 13:40:08.702 INFO [Thread-3] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
